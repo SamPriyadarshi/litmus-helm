@@ -3,14 +3,14 @@ entries:
   litmus:
   - apiVersion: v2
     appVersion: 2.14.0
-    created: "2022-12-23T06:00:13.662078388Z"
+    created: "2022-12-23T06:21:10.345853172Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
       repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
       version: 12.1.11
     description: A Helm chart to install ChaosCenter
-    digest: 54165be6d9cea6b24a8652fa89ae143aaa7f233375c67ce16d887cacd72e3ac3
+    digest: 289bbc5d759d0f50bcaa0d4740f37a32c16a0078d04875e841a6d1ff837506cf
     home: https://litmuschaos.io
     icon: https://raw.githubusercontent.com/litmuschaos/icons/master/litmus.png
     keywords:
@@ -31,4 +31,4 @@ entries:
     urls:
     - https://SamPriyadarshi.github.io/litmus-helm/litmus-2.15.3.tgz
     version: 2.15.3
-generated: "2022-12-23T06:00:13.652205101Z"
+generated: "2022-12-23T06:21:10.33473468Z"
