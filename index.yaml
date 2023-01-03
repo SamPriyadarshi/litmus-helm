@@ -3,7 +3,7 @@ entries:
   litmus:
   - apiVersion: v2
     appVersion: 2.14.0
-    created: "2023-01-03T12:38:38.965074806Z"
+    created: "2023-01-03T13:00:46.422464879Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -31,4 +31,4 @@ entries:
     urls:
     - https://SamPriyadarshi.github.io/litmus-helm/litmus-2.15.3.tgz
     version: 2.15.3
-generated: "2023-01-03T12:38:38.953795896Z"
+generated: "2023-01-03T13:00:46.409634189Z"
