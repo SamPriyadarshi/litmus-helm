@@ -32,9 +32,9 @@ data:
         id: github
         name: GitHub
         config:
-          clientID: {{ .Values.dex.clientId}} # Add your GitHub Client ID here
-          clientSecret: {{ .Values.dex.clientSecret }} # Add your GitHub Client Secret here
-          redirectURI: {{ .Values.dex.redirectUri }}  # Replace your domain here
+          clientID: {{ .Values.dex.clientId}}
+          clientSecret: {{ .Values.dex.clientSecret }}
+          redirectURI: {{ .Values.dex.redirectUri }}
           orgs:
           - name: {{ .Values.dex.githuborg }}
 
